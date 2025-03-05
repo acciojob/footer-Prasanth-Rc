@@ -91,9 +91,14 @@ footer {
   .media-icons {
     flex-wrap: wrap;
   }
-	.link-boxes {
-  display: flex;
-  flex-direction: column; /* Makes it a vertical layout */
-  gap: 10px; /* Adds space between the items */
+.link-boxes {
+  display: flex !important; 
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding: 0;
 }
 }
