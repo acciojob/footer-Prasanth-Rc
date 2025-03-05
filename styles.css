@@ -91,4 +91,9 @@ footer {
   .media-icons {
     flex-wrap: wrap;
   }
+	.link-boxes {
+  display: flex;
+  flex-direction: column; /* Makes it a vertical layout */
+  gap: 10px; /* Adds space between the items */
+}
 }
