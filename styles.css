@@ -92,7 +92,7 @@ footer {
     flex-wrap: wrap;
   }
 .link-boxes {
-  display: flex !important; 
+  display: block; 
   flex-direction: column;
   gap: 10px;
 }
